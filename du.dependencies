@@ -1,0 +1,8 @@
+[
+  {
+    "remote":      "github",
+    "repository":  "lge-msm8996/android_device_lge_g6-common",
+    "target_path": "device/lge/g6-common",
+    "branch": 	   "n7x-caf"
+  }
+]
