@@ -14,10 +14,10 @@
 # limitations under the License.
 #
 
-$(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
+LOCAL_PATH := device/lge/us997
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/lge/us997/us997-vendor.mk)
+$(call inherit-product, vendor/lge/us997/us997-vendor.mk)
 
 # common g6
 $(call inherit-product, device/lge/g6-common/g6.mk)
